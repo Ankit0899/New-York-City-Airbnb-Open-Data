@@ -1,20 +1,44 @@
-# New-York-City-Airbnb-Open-Data
+# New York City Airbnb Data Analysis
 
-This dataset contains detailed information on Airbnb listings in New York City, including data about the properties, prices, host information, and more. It is often used for analyzing trends in the Airbnb market, performing statistical analysis, or building models related to pricing, occupancy, and other key factors.
+## Overview
+Airbnb is one of the largest hospitality platforms in the world, connecting travelers with hosts offering accommodations ranging from shared rooms to entire homes. Founded in 2008, Airbnb has facilitated over 300 million guest stays and aims to reach 1 billion by 2028.
+
+This dataset contains detailed information about over 50,000 Airbnb listings in New York City. It includes data on pricing, location, property type, reviews, host details, and more. By analyzing this dataset, we aim to uncover key insights into the Airbnb market in NYC.
+
+## Dataset Contents
+The dataset includes the following attributes:
+- **Listing ID**: Unique identifier for each listing
+- **Name**: Name of the listing
+- **Host ID**: Unique identifier for the host
+- **Host Name**: Name of the host
+- **Neighborhood**: Location of the property within NYC
+- **Latitude & Longitude**: Geographic coordinates of the listing
+- **Room Type**: Type of accommodation (Entire home/apartment, Private room, Shared room)
+- **Price**: Cost per night in USD
+- **Minimum Nights**: Minimum stay required
+- **Number of Reviews**: Count of reviews received
+- **Last Review**: Date of the most recent review
+- **Reviews per Month**: Average number of reviews per month
+- **Availability**: Number of available days in a year
+
+## Objectives
+The main goal of this project is to analyze the dataset to gain insights such as:
+- The most common room types listed on Airbnb in NYC.
+- The distribution of listings across different neighborhoods.
+- Price variations based on location and room type.
+- The impact of reviews on listing popularity.
+
+## Steps in the Analysis
+1. **Data Acquisition & Exploration**: Load the dataset and examine its structure.
+2. **Data Cleaning**: Handle missing values, remove duplicates, and standardize data formats.
+3. **Data Analysis & Visualization**: Use statistical analysis and visualizations to extract insights.
+
+## Usage
+This dataset can be used for:
+- Understanding the Airbnb market in NYC.
+- Pricing analysis and trends.
+- Location-based recommendations.
+- Identifying high-demand areas for Airbnb listings.
 
 
-# Dataset Overview
-The dataset includes information on thousands of Airbnb listings across New York City, providing insights into various attributes such as:
-    1. Listing details: including name, location, and description of the property.
-    2. Host information: including host name, number of listings, and other relevant details.
-    3. Pricing data: including price per night, availability, and minimum stay requirements.
-    4. Geographic information: such as neighborhood, latitude, and longitude.
-    5. Property type: such as entire home, shared room, or private room.
-    6. Reviews: including review ratings and number of reviews for each listing.
 
-
-# How to Use This Dataset
-    Data Analysis: Use this dataset to analyze pricing trends, popular neighborhoods, and factors influencing reviews and ratings.
-    Machine Learning: Build predictive models for pricing, occupancy rates, or predict which listings are most likely to get booked.
-    Visualization: Create maps, charts, and graphs to visualize the data (e.g., price distributions by neighborhood or review scores over time).
-    Research: Conduct studies on the impact of various factors (location, host experience, listing type) on Airbnb success.
