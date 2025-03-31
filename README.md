@@ -1,5 +1,8 @@
 # New York City Airbnb Data Analysis
 
+![](New_York_City_.png)
+
+
 ## Overview
 Airbnb is one of the largest hospitality platforms in the world, connecting travelers with hosts offering accommodations ranging from shared rooms to entire homes. Founded in 2008, Airbnb has facilitated over 300 million guest stays and aims to reach 1 billion by 2028.
 
